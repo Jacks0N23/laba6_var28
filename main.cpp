@@ -60,6 +60,8 @@ int main() {
         output_file << "\n\ncorrection isn't need" << endl;
 
 
+    input_file.close();
+    output_file.close();
 
     for (int k = 0; k < n; k++) {
         delete[] A[k];
